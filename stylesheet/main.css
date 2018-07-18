@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'EB Garamond', serif;
+}
+.header__main{
+	height: 100px;
+	padding: 0 80px;
+	align-items: center;
+	display: flex;
+	background: #fff;
+	position: relative;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	
+}
+.header__Logo{
+	width: 20%;
+	font-size: 22pt;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 10px;
+}
+.header__menu{
+	width: 80%;
+}
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.menu__item a{
+	text-decoration: none;
+	color: #303131;
+	font-size: 14pt;
+}
+.menu__item a:hover{
+	color: #8B98A7;
+}
+.menu__item:not(:last-child){
+	margin-right: 80px;
+}
+/* <!-- Main -->> */
+.main{
+	padding: 0 80px;
+}
+.main__banner{
+	height: 900px;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(../image/brooke-lark-158019.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.main__background{
+	width: 100%;
+	height: 100%;
+	/* background: rgba(68,85,99,0.5); */
+	background: rgba(49,61,72,0.4);
+	text-align: center;
+	align-items: center;
+	display: flex;
+}
+.main__description{
+	width: 100%;
+	color: #fff;
+	margin: 0 auto;
+}
+.main__description h2{
+	font-family: 'Cinzel', serif;
+	font-size: 65pt;
+	font-weight: lighter;
+	text-shadow: 1px 1px black;
+}
+.main__description p{
+	font-size: 18pt;
+	font-weight: lighter;
+	letter-spacing: 13px;
+	margin-bottom: 25px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.main__btn{
+	border: 1px solid #fff;
+	width: 145px;
+	height: 45px;
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+}
+.main__btn a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14pt;
+	width: 100%;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.main__btn:hover{
+	background: #273A4E;
+	border: 1px solid #273A4E;
+	transition: all 0.3s ease;
+}
+/* <<---Footer--->> */
+.footer{
+	height: 100px;
+	padding: 0 80px;
+	align-items: center;
+	display: flex;
+}
+.footer__social{
+	margin: 0 auto;
+}
+.social{
+	display: flex;
+	list-style: none;
+}
+.social__item:not(:last-child){
+	margin-right: 30px;
+}
+/* <<-------- main portfolio ------->> */
+.main__portfolio{
+	margin: 0 auto;
+	padding: 0 80px;
+}
+.portfolio__menu{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0 auto;
+
+
+}
+.portfolio_menu__item{
+	width: 100%;
+	height: 900px;
+	background: #ccc;
+	text-align: center;
+
+}
+.bg_editorial{
+	background-image: url(../image/editorial_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.bg_foodserve{
+	background-image: url(../image/FOOD&SERVE.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.bg_bakedgoods{
+	background-image: url(../image/BAKED_GOODS.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.portfolio_menu__item:not(:last-child){
+	margin-right: 10px;
+}
+.portfolio_menu__title{
+	font-family: 'Cinzel', serif;
+	font-size: 32pt;
+	padding-top: 70px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-weight: lighter;
+	text-shadow: 1px 1px black;
+}
+.portfolio__background{
+	width: 100%;
+	height: 100%;
+	/* background: rgba(159,198,232,0.2); */
+	background: rgba(49,61,72,0.4);
+}
+/* <<--------------EDITORIAL-PAGE-------------->> */
+.main__editorial{
+	margin: 0 auto;
+	padding: 0 80px;
+}
+.nav_backAndTitel{
+	align-items: center;
+	display: flex;
+	margin: 70px auto;
+	width: 100%;
+}
+.back_page{
+	font-size: 16pt;
+	width: 20%;
+	text-decoration: none;
+	margin-left: 100px;
+}
+.editorial__title{
+	font-family: 'Cinzel', serif;
+	font-size: 42pt;
+	color: black;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 100px;
+}
+.gallery__img{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.img_row__towItem{
+	display: flex;
+}
+.img_row__oneItem{
+	margin-top: 10px;
+}
+.img__item{
+	width: 100%;
+	height: 410px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	z-index: 0;
+}
+.container_item__bg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.0);
+}
+.menu_social{
+	display: flex;
+	list-style: none;
+	opacity: 0;
+}
+.menu_social__item:not(:last-child){
+	margin-right: 30px;
+}
+
+.menu_social__link{}
+.menu_social__img{}
+
+.img__item:not(:last-child){
+	margin-right: 10px;
+}
+.img_link__like{
+	position: absolute;
+	left: 25px;
+	bottom: 0px;
+	visibility: hidden;
+	opacity: 0;
+}
+.img_link__repost{
+	text-align: right;
+	position: absolute;
+	right: 25px;
+	bottom: 0px;
+	visibility: hidden;
+	opacity: 0;
+}
