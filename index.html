@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Main-page</title>
     <link href="https://fonts.googleapis.com/css?family=Cairo|Cinzel|Didact+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet/bootstrap.min.css">
     <link rel="stylesheet" href="./stylesheet/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="./javascript/main.js"></script>
 </head>
-
 <body>
-    <header class="header__main">
-        <div class="container">
-            <div class="header__Logo">J.ALISSA</div>
-            <nav class="header__menu">
+<div class="container-fluid">
+    <header class="header">
+         <div class="header-container row">
+            <div class="header-logo padding-none col col-md-4">Р.Мануилов</div>
+            <nav class="header-menu padding-none col-xs-12 col-sm-12 col-md-6">
                 <ul class="menu">
-                    <li class="menu__item"><a href="index.html" title="">Home</a></li>
-                    <li class="menu__item"><a href="portfolio.html" title="">Portfolio</a></li>
-                    <li class="menu__item"><a href="#" title="">About</a></li>
-                    <li class="menu__item"><a href="#" title="">Books</a></li>
-                    <li class="menu__item"><a href="#" title="">Blog</a></li>
-                    <li class="menu__item"><a href="https://www.wix.com/website-template/view/html/1911/?siteId=c1c72d26-c040-41f2-80ce-0b0f8aef01b4&metaSiteId=5d77fab8-f068-4228-8b61-4181af054ca6&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fphotography" title="">Contact</a></li>
+                    <li class="menu-item"><a href="index.html" title="" class="menu-item__link">Главная</a></li>
+                    <li class="menu-item"><a href="portfolio.html" title="" class="menu-item__link">Портфолио</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Обо&nbsp;мне</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Книги</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Блог</a></li>
+                    <li class="menu-item"><a class="menu-item__link" href="https://www.wix.com/website-template/view/html/1911/?siteId=c1c72d26-c040-41f2-80ce-0b0f8aef01b4&metaSiteId=5d77fab8-f068-4228-8b61-4181af054ca6&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fphotography" title="">Контакты</a></li>
                 </ul>
             </nav>
-        </div>
+             <div class="button-hidden col">
+                 <img src="./image/icons/menu.png" alt="" class="button-hidden__img">
+             </div>
+         </div>
     </header>
     <!-- /header -->
     <main class="main">
-        <div class="container">
-            <div class="main__banner">
-                <div class="main__background">
-                    <section class="main__description">
-                        <h2>THE ART OF FOOD</h2>
-                        <p>PHOTOGRAPHY</p>
-                        <div class="main__btn"><a href="portfolio.html">View More</a></div>
+        <div class="main-container">
+            <div class="main-banner">
+                    <section class="main-description">
+                        <h2 class="main-description__name">ЕДА КАК ИСКУССТВО</h2>
+                        <p class="main-description__text">ФОТОГРАФИЯ</p>
+                        <div class="main-description__button"><a href="portfolio.html" class="main-description__button-link">Работы</a></div>
                     </section>
-                </div>
             </div>
+            <nav class="menu-hidden">
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html" title="" class="menu-item__link">Главная</a></li>
+                    <li class="menu-item"><a href="portfolio.html" title="" class="menu-item__link">Портфолио</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Обо&nbsp;мне</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Книги</a></li>
+                    <li class="menu-item"><a href="#" title="" class="menu-item__link">Блог</a></li>
+                    <li class="menu-item"><a class="menu-item__link" href="https://www.wix.com/website-template/view/html/1911/?siteId=c1c72d26-c040-41f2-80ce-0b0f8aef01b4&metaSiteId=5d77fab8-f068-4228-8b61-4181af054ca6&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fphotography" title="">Контакты</a></li>
+                </ul>
+            </nav>
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
-            <nav class="footer__social">
+        <div class="footer-container">
+            <nav class="footer-social">
                 <ul class="social">
                     <li class="social__item"><a href="#"><img src="./image/icons/pint.png" alt=""></a></li>
                     <li class="social__item"><a href="#"><img src="./image/icons/facebook.png" alt=""></a></li>
@@ -53,6 +65,6 @@
             </nav>
         </div>
     </footer>
+</div>
 </body>
-
 </html>
